@@ -1,0 +1,61 @@
+@font-face {
+    font-family: face;
+    src: url(ScaryNight-R9Kp6.ttf);
+}
+
+@font-face {
+    font-family: blood;
+    src: url(BloodytypepersonaluseBold-OVe6e.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/3d-fantasy-scene_23-2151127934.jpg?t=st=1759250222~exp=1759253822~hmac=cc4760877f5e37c048e2f8b21a7161919f8952e3b58680af80ca1695320b839a&w=1480);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px;
+    font-family: blood;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+h1 {
+    color: rgb(255, 218, 240);
+}
+
+span {
+    color: rgba(255, 0, 0, 0.897);
+}
+
+button {
+    margin-top: 30px;
+    background: transparent;
+    color: white;
+    border: 2px solid lightblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgba(255, 17, 0, 0.932);
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid white;
+}
